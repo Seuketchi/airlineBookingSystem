@@ -28,11 +28,11 @@ public class SeatPlan {
         System.out.println();
     }
 
-    public void seatLimit(int row, int col) {
-        if (row < 0 || row >= seats.length || col < 0 || col >= seats[0].length) {
-            System.out.println("Invalid Seat");
-        }
-    }
+//    public void seatLimit(int row, int col) {
+//        if (row < 0 || row >= seats.length || col < 0 || col >= seats[0].length) {
+//            System.out.println("Invalid Seat");
+//        }
+//    }
 
     public void reserveSeat(int row, int col) {
         if (seats[row][col].isReserved()) {
